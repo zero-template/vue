@@ -12,7 +12,9 @@ export default defineConfig({
         babelParserPlugins: ['decorators']
       }
     }),
-    vueJsx()
+    vueJsx({
+      babelPlugins: [['@babel/plugin-proposal-decorators', { version: '2023-05' }]]
+    })
   ],
   resolve: {
     alias: {

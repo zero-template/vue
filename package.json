@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.23.3",
     "axios": "^1.6.1",
     "less": "^4.2.0",
     "pinia": "^2.1.7",
