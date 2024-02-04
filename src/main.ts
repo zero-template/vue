@@ -1,3 +1,4 @@
+import 'uno.css'
 import './assets/main.less'
 
 import { createApp } from 'vue'
